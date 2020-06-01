@@ -1,0 +1,262 @@
+/*        ШРИФТИ        */
+
+/*ПРАВИЙ САЙДБАР*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+/*ЗАГОЛОВКИ ДЛЯ ЛІВОГО САЙДБАРУ*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap');
+
+/*ШРИФТ ДЛЯ ДОШКИ ОГОЛОШЕНЬ*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/*        Шрифти        */
+
+body {
+	background-image: url(img/фон.jpg);
+	height: 100%;
+}
+
+/*Logo*/
+#logo {
+	display: block; 
+
+	margin-left: auto;
+	margin-right: auto;
+
+	height: 100px;
+
+	text-align: justify;
+}
+
+#logo_text_up {
+	font-size: 72px;
+	font-family: Berlin Sans FB;
+
+	color: #fff;
+	text-align: center;
+}
+
+#logo_text_down {
+	font-size: 48px;
+	font-family: ALGERIAN;
+
+	color: #fff;
+	text-align: center;
+}
+#hr_logo {
+	text-decoration: none;
+	border-top: 3px dashed #fff;
+}
+
+
+
+
+/*ЦЕНТРАЛЬНИЙ САЙДБАР*/
+#menu {
+}
+/*Назви категорій*/
+#Нове {
+	color: #fff;
+
+	font-size: 30px;
+
+	margin-bottom: 10px; 	
+}
+#Рекомендації {
+	color: #fff;
+
+	font-size: 30px;
+
+	margin-bottom: 10px;
+}
+#Шаблони{
+	color: #fff;
+
+	font-size: 30px;
+
+	margin-bottom: 10px;
+}
+/*Назви категорій*/
+
+
+/*Забираю декорації у ссилок*/
+.Нове a {
+	text-decoration: none;
+
+	color: #fff;
+}
+
+.Шаблони a {
+	text-decoration: none;
+
+	color: #fff;
+}
+
+.Рекомендації a {
+	text-decoration: none;
+
+	color: #fff;
+}
+/*Забираю декорації у ссилок*/
+
+
+/*Вміст категорій*/
+.Нове {
+	color: #fff;
+
+	font-size: 20px;
+	font-family: Ubuntu;
+
+	margin-bottom: 15px;
+	margin-left: 10px; 
+}
+.Рекомендації {
+	color: #fff;
+
+	font-size: 20px;
+	font-family: Ubuntu;
+
+	margin-bottom: 15px;
+	margin-left: 10px; 
+
+}
+.Шаблони{
+	color: #fff;
+
+	font-size: 20px;
+	font-family: Ubuntu;
+
+	margin-bottom: 15px;
+	margin-left: 10px; 
+
+}
+/*Вміст категорій*/
+/*ЦЕНТРАЛЬНИЙ САЙДБАР*/
+
+
+
+
+
+/*ПРАВИЙ САЙБДАР*/
+
+.right-sidebar {
+	float: right;
+
+	margin-top: 2em;
+
+	padding: 5px;
+
+	width: 250px;
+	height: 500px;
+
+	border: 2px #ACB5AC solid;
+	border-radius: 15px;
+
+	background-color: #d3d3d3;
+
+
+}
+
+/* Забираю підкреслення у ссилок на правому сайдбарі */
+
+.right_sb {
+	color: #000000;
+	text-decoration: none;
+}
+
+
+/*ПРАВИЙ САЙДБАР НАПОВНЕННЯ*/
+
+/*НАЗВИ*/
+#Уроки_та_гайди {
+	font-size: 30px;
+	font-family:Poppins;
+}
+
+#Інструменти {
+	font-size: 30px;
+	font-family:Poppins;
+}
+
+
+#Шпаргалки {
+	font-size: 30px;
+	font-family:Poppins;
+}
+/*Назви*/
+
+
+
+/*НАПОВНЕННЯ*/
+.Уроки {
+	font-size: 20px;
+	margin-left: 5px;
+	margin-bottom: 50px;
+
+	font-family:Roboto Slab;
+}
+
+
+.Топ_інструментів {
+	font-size: 20px;
+	margin-left: 5px; 
+	margin-bottom: 50px; 	
+
+	font-family:Roboto Slab;
+}
+
+.Веб_Програмування {
+	font-size: 20px;
+	margin-left: 5px; 
+	margin-bottom: 50px; 
+
+	font-family:Roboto Slab;
+}
+
+/*Окремі елементи*/
+.уроки {
+	width: 30%
+	margin-bottom: 7px;
+	transition: .5s all
+}
+
+.топ_інструментів {
+	width: 30%
+	margin-bottom: 7px;
+	transition: .5s all
+}
+
+.ВебПрограмування {
+	width: 30%
+	margin-bottom: 7px;
+	transition: .5s all
+}
+
+/*Наповнення*/
+
+
+
+/*АНІМАЦІЇ*/
+
+.уроки:hover {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.статті:hover {
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.топ_інструментів:hover {
+	font-size: 20px;
+	margin-left: 10px; 	
+}
+
+.ВебПрограмування:hover {
+	font-size: 20px;
+	margin-left: 10px; 
+}
+
+/*Анімації*/
+/*Правий сайдбар наповнення*/
